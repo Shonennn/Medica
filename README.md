@@ -1,13 +1,10 @@
-# ClinicMedica
-## Group4's project
 
-1.groupMember
+1. 使用installer安装 MySQL 5.7 
+https://dev.mysql.com/downloads/file/?id=514518
 
-    Zhiyang Wu 300220785 zwu123@uottawa.ca
+2. pip install mysqlclient
 
-    Haiwei Nan(Shonennn) 300250954 hnan059@uottawa.ca
+3. 通过MySQL workbench的data import功能导入数据库
+文件选择(clinic/xxxx.sql)
 
-    Huajing Qi 300254157 hqi053@uottawa.ca
-
-    Manjie Hou 300254157 mhou062@uottawa.ca
-    
+4. python manage.py runserver
